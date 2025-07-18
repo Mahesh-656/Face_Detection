@@ -1,0 +1,32 @@
+{
+  "name": "face-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@huggingface/inference": "*",
+    "@pinecone-database/pinecone": "*",
+    "canvas": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "face-api.js": "*",
+    "fs-extra": "*",
+    "multer": "*",
+    "winston": "^3.17.0",
+    "sharp": "^0.32.6",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
