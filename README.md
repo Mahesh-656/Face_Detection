@@ -119,8 +119,8 @@ ESP32\_CAM uploads an image ➝ This service extracts face ➝ EmbeddingServices
 
 ## 👨‍🎓 Project Info
 
-**Final Year Project**
-**Title:** Mind Sync Smart Glasses
+**Final Year Project**,
+**Title:** Mind Sync Smart Glasses,
 **Component:** Face Detection Microservice
 
 ---
