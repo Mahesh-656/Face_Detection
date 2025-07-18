@@ -31,10 +31,7 @@ To extract face embeddings from captured images, compare them with stored vector
 
 ```
 FaceDetection/
-├── models/              # MongoDB face data schema
-├── routes/              # Upload & match endpoints
-├── utils/               # Face extraction logic
-├── public/models/       # face-api.js pre-trained models
+├── models/              # face-api.js pre-trained models
 ├── index.js             # Server entry point
 └── .env                 # Environment variables
 ```
